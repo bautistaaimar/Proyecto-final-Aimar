@@ -25,18 +25,40 @@
                             <a class="nav-link active" href="">CONTACTOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="../css/nosotros.css">NOSOTROS</a>
+                            <a class="nav-link text-dark" href="./nosotros.html">NOSOTROS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="../css/articulos.css">ARTICULOS</a>
+                            <a class="nav-link text-dark" href="./articulos.html">ARTICULOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="../css/mas.css">MAS ZAPAS</a>
+                            <a class="nav-link text-dark" href="./mas.html">MAS ZAPAS</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
+        <form action="https://formsubmit.co/aimarbautista110@gmail.com" method="POST">
+            <h2>Contacto</h2>
+            <div class="input-group">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre">
+                <label for="phone">Telefono</label>
+                <input type="tel" name="phone" id="phone" placeholder="Telefono">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <label for="massage">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                <div class="form-txt">
+                    <a href="#">politica de privacidad</a>
+                    <a href="#">terminos y condiciones</a>
+                </div>
+                <input class="btn" type="submit" value="Enviar">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/pages/contactos.html">
+                <input type="hidden" name="_captcha" value="flase">
+            </div>
+        </form>
     </header>
     <main>
         
